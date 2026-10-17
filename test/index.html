@@ -39,11 +39,12 @@
 <body>
   <h1>Waqt</h1>
   <p>Prayer times, adhan, Qibla and Quran. No ads and no account needed.</p>
-  <a class="join" href="https://play.google.com/store/apps/details?id=com.sihan.waqt">Join the test on Google Play</a>
-  <small>Use the Gmail you gave Sihan. Not working? <a href="https://play.google.com/apps/testing/com.sihan.waqt" style="color:#fff">Join on the web</a>, tap “Become a tester”, then install Waqt.</small>
+  <a class="join" href="https://play.google.com/apps/testing/com.sihan.waqt">Join the test on Google Play</a>
+  <small>Sign in with the Gmail you gave Sihan, tap “Become a tester”, then install Waqt from Google Play. Already a tester? <a href="https://play.google.com/store/apps/details?id=com.sihan.waqt" style="color:#fff">Open it in Play</a>.</small>
   <script>
-    // People go straight on to Google Play; link previews read the tags above and never run this.
-    location.replace('https://play.google.com/store/apps/details?id=com.sihan.waqt');
+    // People go straight on to the test's opt-in (link previews read the tags above and never run this).
+    // Before opting in, the Play listing says "Item not found", even to people on the testers list.
+    location.replace('https://play.google.com/apps/testing/com.sihan.waqt');
   </script>
 </body>
 </html>
